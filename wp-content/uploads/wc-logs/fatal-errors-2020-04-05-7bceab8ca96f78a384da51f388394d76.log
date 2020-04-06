@@ -1,0 +1,65 @@
+2020-04-05T18:44:05+00:00 CRITICAL Uncaught Error: Call to undefined function kalium_woocommerce_header_mini_cart() in C:\xampp\htdocs\matramk\wp-content\themes\kalium\tpls\header-main.php:238
+Stack trace:
+#0 C:\xampp\htdocs\matramk\wp-includes\template.php(724): require()
+#1 C:\xampp\htdocs\matramk\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\matramk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\matramk\wp-content\themes\kalium\header.php(69): get_template_part('tpls/header-mai...')
+#4 C:\xampp\htdocs\matramk\wp-includes\template.php(722): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matramk\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\matramk\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\matramk\wp-content\themes\kalium\page.php(19): get_header()
+#8 C:\xampp\htdocs\matramk\wp-includes\template-loader.php(78): include('C:\\xampp\\htdocs...')
+#9 C:\ in C:\xampp\htdocs\matramk\wp-content\themes\kalium\tpls\header-main.php on line 238
+
+2020-04-05T18:44:18+00:00 CRITICAL Uncaught Error: Call to undefined function kalium_woocommerce_header_mini_cart() in C:\xampp\htdocs\matramk\wp-content\themes\kalium\tpls\header-main.php:238
+Stack trace:
+#0 C:\xampp\htdocs\matramk\wp-includes\template.php(724): require()
+#1 C:\xampp\htdocs\matramk\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\matramk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\matramk\wp-content\themes\kalium\header.php(69): get_template_part('tpls/header-mai...')
+#4 C:\xampp\htdocs\matramk\wp-includes\template.php(722): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matramk\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\matramk\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\matramk\wp-content\themes\kalium\archive.php(12): get_header()
+#8 C:\xampp\htdocs\matramk\wp-includes\template.php(724): require('C:\\xampp\\htdocs...')
+#9 C:\xam in C:\xampp\htdocs\matramk\wp-content\themes\kalium\tpls\header-main.php on line 238
+
+2020-04-05T18:47:01+00:00 CRITICAL Uncaught Error: Call to undefined function kalium_woocommerce_header_mini_cart() in C:\xampp\htdocs\matramk\wp-content\themes\kalium\tpls\header-main.php:238
+Stack trace:
+#0 C:\xampp\htdocs\matramk\wp-includes\template.php(724): require()
+#1 C:\xampp\htdocs\matramk\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\matramk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\matramk\wp-content\themes\kalium\header.php(69): get_template_part('tpls/header-mai...')
+#4 C:\xampp\htdocs\matramk\wp-includes\template.php(722): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matramk\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\matramk\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\matramk\wp-content\themes\kalium\archive.php(12): get_header()
+#8 C:\xampp\htdocs\matramk\wp-includes\template.php(724): require('C:\\xampp\\htdocs...')
+#9 C:\xam in C:\xampp\htdocs\matramk\wp-content\themes\kalium\tpls\header-main.php on line 238
+
+2020-04-05T18:50:45+00:00 CRITICAL Uncaught Error: Call to undefined function kalium_woocommerce_header_mini_cart() in C:\xampp\htdocs\matramk\wp-content\themes\kalium\tpls\header-main.php:238
+Stack trace:
+#0 C:\xampp\htdocs\matramk\wp-includes\template.php(724): require()
+#1 C:\xampp\htdocs\matramk\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\matramk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\matramk\wp-content\themes\kalium\header.php(69): get_template_part('tpls/header-mai...')
+#4 C:\xampp\htdocs\matramk\wp-includes\template.php(722): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matramk\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\matramk\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\matramk\wp-content\themes\kalium\archive.php(12): get_header()
+#8 C:\xampp\htdocs\matramk\wp-includes\template.php(724): require('C:\\xampp\\htdocs...')
+#9 C:\xam in C:\xampp\htdocs\matramk\wp-content\themes\kalium\tpls\header-main.php on line 238
+
+2020-04-05T18:54:56+00:00 CRITICAL Uncaught Error: Call to undefined function kalium_woocommerce_header_mini_cart() in C:\xampp\htdocs\matramk\wp-content\themes\kalium\tpls\header-main.php:238
+Stack trace:
+#0 C:\xampp\htdocs\matramk\wp-includes\template.php(724): require()
+#1 C:\xampp\htdocs\matramk\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\matramk\wp-includes\general-template.php(168): locate_template(Array, true, false)
+#3 C:\xampp\htdocs\matramk\wp-content\themes\kalium\header.php(69): get_template_part('tpls/header-mai...')
+#4 C:\xampp\htdocs\matramk\wp-includes\template.php(722): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\matramk\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', true)
+#6 C:\xampp\htdocs\matramk\wp-includes\general-template.php(41): locate_template(Array, true)
+#7 C:\xampp\htdocs\matramk\wp-content\themes\kalium\archive.php(12): get_header()
+#8 C:\xampp\htdocs\matramk\wp-includes\template.php(724): require('C:\\xampp\\htdocs...')
+#9 C:\xam in C:\xampp\htdocs\matramk\wp-content\themes\kalium\tpls\header-main.php on line 238
+
