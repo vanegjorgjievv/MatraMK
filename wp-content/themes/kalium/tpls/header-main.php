@@ -11,6 +11,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $nav = kalium_nav_menu();
 
+if (!is_user_logged_in()) {
+   $nav = str_replace('My Account', 'Login/Register', $nav);
+}
+
 // Menu In Use
 $menu_type     = get_data( 'main_menu_type' );
 $sticky_header = get_data( 'sticky_header' );
