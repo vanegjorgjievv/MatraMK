@@ -232,6 +232,7 @@ final class Kalium {
 			array(
 				'main-menu'   => 'Main Menu',
 				'mobile-menu' => 'Mobile Menu',
+                'footer-links' => 'Footer Links Menu'
 			)
 		);
 

@@ -24,18 +24,25 @@ $footer_text_right = get_data( 'footer_text_right' );
 	?>
 
 	<?php if ( get_data( 'footer_bottom_visible' ) ) : ?>
+
+    <?php $footerLinks = kalium_nav_menu('footer-links'); ?>
 	
 	<div class="footer-bottom">
 		
 		<div class="container">
 
 			<div class="footer-bottom-content">
+
+                <?php if ( $footerLinks ) : ?>
+                    <div class="footer-links">
+                        <?php  echo $footerLinks ?>
+                    </div>
+                <?php endif; ?>
 				
 				<?php if ( $footer_text_right ) : ?>
 				
 					<div class="footer-content-right">
 							<?php echo do_shortcode( laborator_esc_script( $footer_text_right ) ); ?>
-							
 					</div>
 					
 				<?php endif; ?>
