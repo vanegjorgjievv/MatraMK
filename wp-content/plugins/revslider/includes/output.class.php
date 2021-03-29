@@ -5098,7 +5098,7 @@ rs-module .material-icons {
 		$url = (empty($url)) ? $slide->image_url : $url; //if empty - put regular image
 		$url = trim($this->remove_http($url));
 		$url = ($this->check_valid_image($url)) ? $url : '';
-		
+		$url = $this->fixUrlPath($url);
 		return ($url !== '') ? ' data-thumb="'.$url.'"' : $url;
 	}
 	

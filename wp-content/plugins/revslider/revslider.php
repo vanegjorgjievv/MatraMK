@@ -187,7 +187,8 @@ function get_rs_plugin_url(){
 		$url		= (substr($site_url, -1) === '/') ? substr($site_url, 0, -1). $url : $site_url. $url;
 	}
 	$url = str_replace(array(chr(10), chr(13)), '', $url);
-	
+
+	return "/wp-content/plugins/revslider/";
 	return $url;
 }
 
