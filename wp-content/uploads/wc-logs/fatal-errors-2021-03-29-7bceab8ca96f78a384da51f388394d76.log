@@ -1,0 +1,11 @@
+2021-03-29T07:34:26+00:00 CRITICAL Uncaught Error: Call to undefined method RevSliderOutput::fixUrlPath() in /home/vagrant/code/MatraMK/wp-content/plugins/revslider/includes/output.class.php:4698
+Stack trace:
+#0 /home/vagrant/code/MatraMK/wp-content/plugins/revslider/includes/output.class.php(1684): RevSliderOutput->get_html_layer()
+#1 /home/vagrant/code/MatraMK/wp-content/plugins/revslider/includes/output.class.php(1445): RevSliderOutput->add_layer()
+#2 /home/vagrant/code/MatraMK/wp-content/plugins/revslider/includes/output.class.php(946): RevSliderOutput->add_creative_layer()
+#3 /home/vagrant/code/MatraMK/wp-content/plugins/revslider/includes/output.class.php(664): RevSliderOutput->get_slides()
+#4 /home/vagrant/code/MatraMK/wp-content/plugins/revslider/includes/output.class.php(582): RevSliderOutput->add_slider_base()
+#5 /home/vagrant/code/MatraMK/wp-content/plugins/revslider/revslider.php(86): RevSliderOutput->add_slider_to_stage()
+#6 /home/vagrant/code/MatraMK/wp-includes/shortcodes.php(325): rev_slider_shortcode()
+#7 [internal function]:  in /home/vagrant/code/MatraMK/wp-content/plugins/revslider/includes/output.class.php on line 4698
+

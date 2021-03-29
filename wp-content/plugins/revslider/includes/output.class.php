@@ -1200,7 +1200,6 @@ class RevSliderOutput extends RevSliderFunctions {
 		$img['data-bg']	 	 = $this->get_image_background_values();
 		$img['data-parallax']= $this->get_html_parallax();
 		$img['data-panzoom'] = $this->get_html_pan_zoom();
-		
 		unset($img['id']);
 		
 		return $img;
@@ -4609,7 +4608,7 @@ rs-module .material-icons {
 				$additional	= '';
 				$cover_mode	= $this->get_val($layer, array('size', 'covermode'), 'custom');
 				//$urlImage	= $this->get_val($layer, array('idle', 'backgroundImage'));
-				$urlImage	= $this->get_val($layer, array('media', 'imageUrl'));
+				$urlImage	= $this->fixUrlPath($this->get_val($layer, array('media', 'imageUrl')));
 				$cur_img_id	= $this->get_val($layer, array('media', 'imageId'));
 				$img_change	= $this->get_val($layer, array('behavior', 'imageSourceType'), 'auto');
 				$img_size	= 'full';
@@ -4696,7 +4695,7 @@ rs-module .material-icons {
 				
 				if($urlImage !== ''){
 					//$urlImage = str_replace(array('https://', 'http://'), '//', $urlImage);
-					$html = '<img src="'.$this->remove_http($urlImage).'"';
+					$html = '<img  src="'.$this->remove_http($urlImage).'"';
 					$html .= ($alt !== '') ? ' alt="'.$alt.'"' : '';
 					$html .= $additional.' data-no-retina>';
 				}
@@ -7155,4 +7154,9 @@ rs-module .material-icons {
 		
 		return $ret;
 	}
+
+	public function fixUrlPath($image)
+    {
+        return substr($image, strpos($image, "/wp-content"));
+    }
 }
