@@ -1445,7 +1445,6 @@ if ( ! function_exists( 'kalium_woocommerce_share_product' ) ) {
 				<?php
 
 				$share_product_networks = get_data( 'shop_share_product_networks' );
-
 				if ( is_array( $share_product_networks ) ) :
 
 					foreach ( $share_product_networks['visible'] as $network_id => $network ) :

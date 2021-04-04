@@ -100,7 +100,11 @@ function share_story_network_link( $network, $post_id = null, $class = '', $icon
 			'tooltip' => 'Facebook',
 			'icon'    => 'facebook'
 		),
-
+//        'ig' => array(
+//            'url'     => 'https://www.facebook.com/sharer.php?u=' . $permalink,
+//            'tooltip' => 'Instagram',
+//            'icon'    => 'instagram'
+//        ),
 		'tw' => array(
 			'url'     => 'https://twitter.com/share?text=' . $title . '&amp;url=' . $permalink,
 			'tooltip' => 'Twitter',

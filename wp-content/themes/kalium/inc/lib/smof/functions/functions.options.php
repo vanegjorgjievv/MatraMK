@@ -4022,6 +4022,7 @@ $of_options[] = array( 	'desc' 		=> "Set maximum width for the uploaded logo, mo
 					'tw'      => 'Twitter',
 					'pi'      => 'Pinterest',
 					'em'      => 'Email',
+                   // 'ig'      => 'Instagram',
 				),
 
 				'hidden' => array(
