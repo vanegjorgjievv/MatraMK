@@ -660,7 +660,8 @@ class WC_Cart extends WC_Legacy_Cart {
 	 * @return int
 	 */
 	public function get_cart_contents_count() {
-		return apply_filters( 'woocommerce_cart_contents_count', array_sum( wp_list_pluck( $this->get_cart(), 'product_id' ) ) );
+		$total = apply_filters( 'woocommerce_cart_contents_count', array_sum( wp_list_pluck( $this->get_cart(), 'product_id' ) ) );
+        return $total;
 	}
 
 	/**

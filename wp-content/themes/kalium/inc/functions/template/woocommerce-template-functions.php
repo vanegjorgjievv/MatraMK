@@ -1350,7 +1350,6 @@ if ( ! function_exists( 'kalium_woocommerce_cart_menu_icon' ) ) {
 
 		$cart_items = WC()->cart->get_cart_contents_count();
 
-        $cart_items = 0;
 		?>
         <div class="menu-cart-icon-container <?php
 
@@ -1392,7 +1391,7 @@ if ( ! function_exists( 'kalium_woocommerce_cart_menu_icon_mobile' ) ) {
 		$cart_items_counter = get_data( 'shop_cart_icon_menu_count' );
 
 		$cart_items = WC()->cart->get_cart_contents_count();
-        $cart_items = 0;
+
 		?>
         <div class="cart-icon-link-mobile-container">
             <a href="<?php echo wc_get_cart_url(); ?>"
