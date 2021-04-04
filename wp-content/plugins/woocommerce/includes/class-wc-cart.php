@@ -661,7 +661,13 @@ class WC_Cart extends WC_Legacy_Cart {
 	 */
 	public function get_cart_contents_count() {
 		$total = apply_filters( 'woocommerce_cart_contents_count', array_sum( wp_list_pluck( $this->get_cart(), 'product_id' ) ) );
-        return $total;
+        $totalItems = 0;
+
+        foreach ($this->get_cart() as  $item) {
+            $totalItems++;
+        }
+
+        return $totalItems;
 	}
 
 	/**
