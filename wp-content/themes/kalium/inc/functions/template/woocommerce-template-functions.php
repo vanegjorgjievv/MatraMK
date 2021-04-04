@@ -1350,7 +1350,7 @@ if ( ! function_exists( 'kalium_woocommerce_cart_menu_icon' ) ) {
 
 		$cart_items = WC()->cart->get_cart_contents_count();
 
-
+        $cart_items = 0;
 		?>
         <div class="menu-cart-icon-container <?php
 
