@@ -111,7 +111,7 @@ if ( ! function_exists( 'kalium_endless_pagination_get_paged_items' ) ) {
 		
 		// Query
 		$fetched_ids    = array_map( 'absint', $pagination['fetchedItems'] );
-		$posts_per_page = absint( $pagination['perPage'] );
+		$posts_per_page = 6;//absint( $pagination['perPage'] );
 		$total_items    = absint( $pagination['totalItems'] );
 		
 		$wp_query_args  = (array) $base_query;
